@@ -1,0 +1,279 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+	margin: 0;
+	padding: 0;
+   font-family: PlayfairDisplay-VariableFont_wght;
+}
+
+@font-face {
+   font-family: PlayfairDisplay-VariableFont_wght;
+   src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family:PlayfairDisplay-Italic-VariableFont_wght;
+   src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu-Light;
+   src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+
+
+/*header start*/
+header{
+padding: 50px 0px;
+margin-bottom:50px ;
+}
+.container{
+	width: 87%;
+	margin: 0 auto;
+
+
+}
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 15px;
+
+
+}
+.logo img{
+width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+
+}
+.menu ul{
+	float: right;
+
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	margin: 0 120px;
+	font-weight: 400;
+	display: inline-block;
+	text-decoration: none;
+	color: #626262;
+
+}
+.menu ul li a:last-child{
+	margin-right: 0px;
+	
+}
+.menu ul li a:hover{
+	color: #0f0f0f;
+	transition: 0.4s;
+}
+.container img{
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+/*header end*/
+
+/*photodiary start*/
+.photodiary{
+	    padding-bottom: 75px;
+}
+.container2{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.container2_txt{}
+.container2_txt span{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	    font-size: 16px;
+    display: inline-block;
+    margin-top: 35px;
+}
+.container2_txt h2{
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+color: #626262;
+font-size: 36px;
+}
+.container2_txt p{
+	color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+
+/*photodiary end*/
+/*lifestyle start*/
+.lifestyle{
+	padding-bottom: 50px;
+}
+.container2_wrapper{
+	width: 44%;
+    margin: 4.5% 3%;
+    float: left;
+}
+.container2_wrapper:hover{
+
+box-shadow: 0px 5px 30px 1px rgba(0,0,0,0.6);
+transition: 0.4s;
+cursor: pointer;
+}
+
+.container2_img{
+	width: 100%;
+}
+.container2_img img{
+	width: 100%;
+}
+
+/*lifestyle end*/
+
+/*sign up start*/
+.signup{
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.signup_txt{
+
+
+}
+.signup_txt h1{
+	font-family: 'Playfair Display', serif;
+    font-weight: 400;
+        margin-bottom: 80px;
+            font-size: 35px;
+}
+.signup_form{
+	position: relative;
+    padding: 15px 0;
+    margin: 0 558px;
+}
+.signup_form input{
+	
+	  background: transparent;
+    color: #626262;
+    font-size: 16px;
+    height: 45px;
+    padding-right: 50px;
+    border: none;
+    width: 356px;
+    border-bottom: 2px solid black;
+}
+
+.signup_form input:focus{
+	outline: 0;
+}
+
+.btn{
+	    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 0;
+}
+
+.btn img{}
+
+/*sign up end*/
+
+/*lifestyle start*/
+
+/*lifestyle end*/
+/*button start*/
+
+.button{
+	text-align: center;
+}
+.button_inner{
+	font-size: 20px;
+    padding: 10px 25px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+}
+.button_inner:hover {
+	background-color: #f0f0f0;
+	transition: 0.4s;
+
+}
+
+
+/*button end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+    padding: 20px 0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.footer_lft{
+	float: left;
+	width: 50%;
+}
+.footer_lft ul{
+
+}
+.footer_lft ul li{
+	display: inline;
+	list-style: none;
+
+}
+.footer_lft ul li a{
+	color: black;
+	margin-right: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+.footer_rght{
+	float: right;
+	width: 50%;
+
+}
+.footer_rght ul{
+	float: right;
+}
+.footer_rght ul li{
+	display: inline;
+	list-style: none;
+
+}
+.footer_rght ul li a{
+	color: black;
+	margin-right: 25px;
+	display: inline-block;
+	text-decoration: none;
+}
+.fb:hover{
+	color: #0D8AF0;
+	transition: 0.3s;
+}
+.twt:hover{
+	color: #5DA9DD;
+	transition: 0.3s;
+}
+.ins:hover {
+	color: #CF3F67;
+	transition: 0.3s;
+}
+
+/*footer end*/
